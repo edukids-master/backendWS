@@ -37,7 +37,7 @@ const UserSchema = new mongoose.Schema({
       "Le mot de passe doit au moins avoir 8 lettres et contenir: une lettre en majuscule, un chiffre, un charactère spécial",
     ],
   },
-  created_at: {
+  date_inscription: {
     type: Date,
     default: new Date(),
   }
