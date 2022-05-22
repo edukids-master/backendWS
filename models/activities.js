@@ -5,7 +5,8 @@ const ActivitiesSchema = new mongoose.Schema({
     img: String,
     titre: String,
     colors: [],
-    bgImg: String
+    bgImg: String,
+    description: String
 })
 
 module.exports = mongoose.model("Activities", ActivitiesSchema, "activities");
